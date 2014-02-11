@@ -8,6 +8,9 @@
 </head>
 <body>
 
+<div class="alert alert-success"><%= flash[:notice] %></div>
+<div class="alert alert-danger"><%= flash[:alert] %></div>
+
 <%= yield %>
 
 </body>
